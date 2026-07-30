@@ -35,12 +35,12 @@ Executive leadership is limited to the CEO or primary leader listed in `asu_comm
 | 17 | The Salvation Army, Southwest Division | Lt. Col. Henry Graciani | Divisional Commander | [Open](The%20Salvation%20Army,%20Southwest%20Division/The%20Salvation%20Army,%20Southwest%20Division.md) |
 | 18 | Arizona Humane Society | Steven Hansen | President and Chief Executive Officer | [Open](Arizona%20Humane%20Society/Arizona%20Humane%20Society.md) |
 | 19 | Community Bridges | John F. Hogeboom | President and Chief Executive Officer | [Open](Community%20Bridges/Community%20Bridges.md) |
-| 20 | Valley of the Sun United Way | Carla Vargas Jasa | President and Chief Executive Officer | Pending |
-| 21 | Save the Family Foundation of Arizona | Robyn Julien | Chief Executive Officer | Pending |
-| 22 | Area Agency on Aging, Region One | Mary Lynn Kasunic | President and Chief Executive Officer | Pending |
-| 23 | Junior Achievement of Arizona | Katherine Kemmeries Cecala | President | Pending |
-| 24 | Foundation for Blind Children | Jared Kittleson | Chief Executive Officer | Pending |
-| 25 | St. Mary's Food Bank | Milton Liu | President and Chief Executive Officer | Pending |
+| 20 | Valley of the Sun United Way | Carla Vargas Jasa | President and Chief Executive Officer | [Open](Valley%20of%20the%20Sun%20United%20Way/Valley%20of%20the%20Sun%20United%20Way.md) |
+| 21 | Save the Family Foundation of Arizona | Robyn Julien | Chief Executive Officer | [Open](Save%20the%20Family%20Foundation%20of%20Arizona/Save%20the%20Family%20Foundation%20of%20Arizona.md) |
+| 22 | Area Agency on Aging, Region One | Mary Lynn Kasunic | President and Chief Executive Officer | [Open](Area%20Agency%20on%20Aging,%20Region%20One/Area%20Agency%20on%20Aging,%20Region%20One.md) |
+| 23 | Junior Achievement of Arizona | Katherine Kemmeries Cecala | President | [Open](Junior%20Achievement%20of%20Arizona/Junior%20Achievement%20of%20Arizona.md) |
+| 24 | Foundation for Blind Children | Jared Kittleson | Chief Executive Officer | [Open](Foundation%20for%20Blind%20Children/Foundation%20for%20Blind%20Children.md) |
+| 25 | St. Mary's Food Bank | Milton Liu | President and Chief Executive Officer | [Open](St.%20Mary's%20Food%20Bank/St.%20Mary's%20Food%20Bank.md) |
 | 26 | UMOM New Day Centers | Monique Lopez | Chief Executive Officer | Pending |
 | 27 | Valley of the Sun YMCA | Bryan Madden | President | Pending |
 | 28 | Make-A-Wish Arizona | Fran Mallace | President and Chief Executive Officer | Pending |
