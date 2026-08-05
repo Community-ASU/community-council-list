@@ -1,6 +1,6 @@
 # Valley of the Sun YMCA
 
-Not an FY25 funded partner of Valley of the Sun United Way.
+FY25 funded partner of Valley of the Sun United Way.
 
 ## About
 
@@ -29,4 +29,3 @@ Its public values are reflected in its work across youth development, healthy li
 | Name | Designation | Photo |
 | --- | --- | --- |
 | J. Bryan Madden | President & Chief Executive Officer | Photo not available |
-

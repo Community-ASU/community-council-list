@@ -1,6 +1,6 @@
 # The Society of St. Vincent de Paul
 
-Is an FY25 funded partner of Valley of the Sun United Way.
+FY25 funded partner of Valley of the Sun United Way.
 
 ## About
 

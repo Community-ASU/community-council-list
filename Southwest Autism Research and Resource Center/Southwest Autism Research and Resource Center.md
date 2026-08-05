@@ -1,6 +1,6 @@
 # Southwest Autism Research and Resource Center
 
-Not an FY25 funded partner of Valley of the Sun United Way.
+FY25 funded partner of Valley of the Sun United Way.
 
 ## About
 
@@ -25,4 +25,3 @@ The mission and vision reflect the organization's dual emphasis on rigorous rese
 | Name | Designation | Photo |
 | --- | --- | --- |
 | Daniel Openden, Ph.D., BCBA-D | President and CEO | ![Daniel Openden](images/Daniel_Openden.jpg) |
-

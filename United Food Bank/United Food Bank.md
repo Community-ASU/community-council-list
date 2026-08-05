@@ -1,6 +1,6 @@
 # United Food Bank
 
-Not an FY25 funded partner of Valley of the Sun United Way.
+FY25 funded partner of Valley of the Sun United Way.
 
 ## About
 
@@ -25,4 +25,3 @@ The mission also reflects a belief that ending hunger requires broad collaborati
 | Name | Designation | Photo |
 | --- | --- | --- |
 | Jason Reed | President and Chief Executive Officer | Photo not available |
-

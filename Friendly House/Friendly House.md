@@ -1,6 +1,6 @@
 # Friendly House
 
-Not an FY25 funded partner of Valley of the Sun United Way.
+FY25 funded partner of Valley of the Sun United Way.
 
 ## About
 
@@ -23,4 +23,3 @@ The mission is reflected across its services: adult education, family support, l
 | Name | Designation | Photo |
 | --- | --- | --- |
 | Avein Saaty-Tafoya | CEO and President | Photo not available |
-
