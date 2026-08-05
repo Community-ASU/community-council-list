@@ -51,3 +51,9 @@ Our mission is to engage, encourage, and equip vulnerable women and teen girls b
 
 
 You should do one first and let me verify it and then do all the others . /Users/ananthss/seteam/Community_Partner_Document/asu_community_council.json this is the json wher eyou have all the community partners listed and the main persons name and designation is also available in the json. You can use that to get the main person in charge of the organisation.
+
+
+
+### Exploration tasks
+
+Any file exploration tasks and for anything where you can use codebase-memory-mcp. please do use it to save me some tokens please. This is a hard constraint

@@ -41,27 +41,27 @@ Executive leadership is limited to the CEO or primary leader listed in `asu_comm
 | 23 | Junior Achievement of Arizona | Katherine Kemmeries Cecala | President | [Open](Junior%20Achievement%20of%20Arizona/Junior%20Achievement%20of%20Arizona.md) |
 | 24 | Foundation for Blind Children | Jared Kittleson | Chief Executive Officer | [Open](Foundation%20for%20Blind%20Children/Foundation%20for%20Blind%20Children.md) |
 | 25 | St. Mary's Food Bank | Milton Liu | President and Chief Executive Officer | [Open](St.%20Mary's%20Food%20Bank/St.%20Mary's%20Food%20Bank.md) |
-| 26 | UMOM New Day Centers | Monique Lopez | Chief Executive Officer | Pending |
-| 27 | Valley of the Sun YMCA | Bryan Madden | President | Pending |
-| 28 | Make-A-Wish Arizona | Fran Mallace | President and Chief Executive Officer | Pending |
-| 29 | Boys & Girls Club of the Valley | Marcia Mintz | Chief Executive Officer | Pending |
-| 30 | Catholic Charities Community Services | Paul Mulligan | President and Chief Executive Officer | Pending |
-| 31 | Education Forward Arizona | Rich Nickel | President and Chief Executive Officer | Pending |
-| 32 | Southwest Autism Research and Resource Center | Daniel Openden | Chief Executive Officer | Pending |
-| 33 | Boy Scouts of America, Grand Canyon Chapter | Andy Price | Scout Executive and Chief Executive Officer | Pending |
-| 34 | United Food Bank | Jason Reed | President and Chief Executive Officer | Pending |
-| 35 | Valle del Sol | Mike Renaud | President and Chief Executive Officer | Pending |
-| 36 | Ability360 | Christopher J. Rodriguez | President and Chief Executive Officer | Pending |
-| 37 | Habitat for Humanity Central Arizona | Todd Rogers | President and Chief Executive Officer | Pending |
-| 38 | Delivering Dreams of Arizona | Aimee Runyon | Chief Executive Officer | Pending |
-| 39 | Friendly House | Avein Saaty-Tafoya | CEO and President | Pending |
-| 40 | Free Arts for Abused Children | Matt Sandoval | Executive Director | Pending |
-| 41 | Breakthrough T1D | Michael Simoni | Executive Director, Breakthrough T1D | Pending |
-| 42 | Frank Lloyd Wright Foundation | Joseph Specter | President and General Director | Pending |
-| 43 | Alzheimer's Association, Desert Southwest Chapter | Terri Spitz | State Executive Director | Pending |
-| 44 | Mountain Park Health Center | John Swagert | Chief Executive Officer | Pending |
-| 45 | Child Crisis Arizona | Torrie Taj | Chief Executive Officer | Pending |
-| 46 | Terros Health | Karen Hoffman Tepper | President and Chief Executive Officer | Pending |
+| 26 | UMOM New Day Centers | Monique Lopez | Chief Executive Officer | [Open](UMOM%20New%20Day%20Centers/UMOM%20New%20Day%20Centers.md) |
+| 27 | Valley of the Sun YMCA | Bryan Madden | President | [Open](Valley%20of%20the%20Sun%20YMCA/Valley%20of%20the%20Sun%20YMCA.md) |
+| 28 | Make-A-Wish Arizona | Fran Mallace | President and Chief Executive Officer | [Open](Make-A-Wish%20Arizona/Make-A-Wish%20Arizona.md) |
+| 29 | Boys & Girls Club of the Valley | Marcia Mintz | Chief Executive Officer | [Open](Boys%20and%20Girls%20Club%20of%20the%20Valley/Boys%20and%20Girls%20Club%20of%20the%20Valley.md) |
+| 30 | Catholic Charities Community Services | Paul Mulligan | President and Chief Executive Officer | [Open](Catholic%20Charities%20Community%20Services/Catholic%20Charities%20Community%20Services.md) |
+| 31 | Education Forward Arizona | Rich Nickel | President and Chief Executive Officer | [Open](Education%20Forward%20Arizona/Education%20Forward%20Arizona.md) |
+| 32 | Southwest Autism Research and Resource Center | Daniel Openden | Chief Executive Officer | [Open](Southwest%20Autism%20Research%20and%20Resource%20Center/Southwest%20Autism%20Research%20and%20Resource%20Center.md) |
+| 33 | Boy Scouts of America, Grand Canyon Chapter | Andy Price | Scout Executive and Chief Executive Officer | [Open](Boy%20Scouts%20of%20America,%20Grand%20Canyon%20Chapter/Boy%20Scouts%20of%20America,%20Grand%20Canyon%20Chapter.md) |
+| 34 | United Food Bank | Jason Reed | President and Chief Executive Officer | [Open](United%20Food%20Bank/United%20Food%20Bank.md) |
+| 35 | Valle del Sol | Mike Renaud | President and Chief Executive Officer | [Open](Valle%20del%20Sol/Valle%20del%20Sol.md) |
+| 36 | Ability360 | Christopher J. Rodriguez | President and Chief Executive Officer | [Open](Ability360/Ability360.md) |
+| 37 | Habitat for Humanity Central Arizona | Todd Rogers | President and Chief Executive Officer | [Open](Habitat%20for%20Humanity%20Central%20Arizona/Habitat%20for%20Humanity%20Central%20Arizona.md) |
+| 38 | Delivering Dreams of Arizona | Aimee Runyon | Chief Executive Officer | [Open](Delivering%20Dreams%20of%20Arizona/Delivering%20Dreams%20of%20Arizona.md) |
+| 39 | Friendly House | Avein Saaty-Tafoya | CEO and President | [Open](Friendly%20House/Friendly%20House.md) |
+| 40 | Free Arts for Abused Children | Matt Sandoval | Executive Director | [Open](Free%20Arts%20for%20Abused%20Children/Free%20Arts%20for%20Abused%20Children.md) |
+| 41 | Breakthrough T1D | Michael Simoni | Executive Director, Breakthrough T1D | [Open](Breakthrough%20T1D/Breakthrough%20T1D.md) |
+| 42 | Frank Lloyd Wright Foundation | Joseph Specter | President and General Director | [Open](Frank%20Lloyd%20Wright%20Foundation/Frank%20Lloyd%20Wright%20Foundation.md) |
+| 43 | Alzheimer's Association, Desert Southwest Chapter | Terri Spitz | State Executive Director | [Open](Alzheimer's%20Association,%20Desert%20Southwest%20Chapter/Alzheimer's%20Association,%20Desert%20Southwest%20Chapter.md) |
+| 44 | Mountain Park Health Center | John Swagert | Chief Executive Officer | [Open](Mountain%20Park%20Health%20Center/Mountain%20Park%20Health%20Center.md) |
+| 45 | Child Crisis Arizona | Torrie Taj | Chief Executive Officer | [Open](Child%20Crisis%20Arizona/Child%20Crisis%20Arizona.md) |
+| 46 | Terros Health | Karen Hoffman Tepper | President and Chief Executive Officer | [Open](Terros%20Health/Terros%20Health.md) |
 
 ## Reference Files
 
