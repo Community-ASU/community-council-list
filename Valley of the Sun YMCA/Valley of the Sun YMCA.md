@@ -28,4 +28,4 @@ Its public values are reflected in its work across youth development, healthy li
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| J. Bryan Madden | President & Chief Executive Officer | Photo not available |
+| J. Bryan Madden | President & Chief Executive Officer | ![J. Bryan Madden](images/Bryan-Madden.jpg) |

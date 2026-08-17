@@ -24,4 +24,4 @@ Wesley frames its work around the statement "Together We Empower Positive Change
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Blaine Bandi | Chief Executive Officer | Photo not available |
+| Blaine Bandi | Chief Executive Officer | ![Blaine Bandi](images/Blaine-Bandi.jpg) |

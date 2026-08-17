@@ -26,4 +26,4 @@ The organization frames its public service around "Doing the Most Good" and focu
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Lt. Col. Henry Graciani | Divisional Commander | Photo not available |
+| Lt. Col. Henry Graciani | Divisional Commander | ![Lt. Col. Henry Graciani ](images/lt-colonelhenrygraciani.jpg) |

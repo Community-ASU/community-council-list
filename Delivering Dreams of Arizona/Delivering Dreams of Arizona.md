@@ -22,5 +22,5 @@ The organization's mission and vision show a focus on both dignity and readiness
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Aimee Runyon | Chief Executive Officer | Photo not available |
+| Aimee Runyon | Chief Executive Officer | ![Aimee Runyon](images/Aimee_Runyon.jpeg) |
 

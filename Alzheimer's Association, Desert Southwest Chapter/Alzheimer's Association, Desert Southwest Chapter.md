@@ -22,4 +22,4 @@ The Desert Southwest Chapter carries that national mission into local communitie
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Terri Spitz | State Executive Director | Photo not available |
+| Terri Spitz | State Executive Director | ![Terri Spitz](images/Terri_Spitz.jpeg) |

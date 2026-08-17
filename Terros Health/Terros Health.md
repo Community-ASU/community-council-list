@@ -24,4 +24,4 @@ The organization's values are compassion, integrity, and empowerment. Those valu
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Karen Hoffman Tepper | President and Chief Executive Officer | Photo not available |
+| Karen Hoffman Tepper | President and Chief Executive Officer | ![Karen Hoffman Tepper](images/karen-tepper.jpg) |

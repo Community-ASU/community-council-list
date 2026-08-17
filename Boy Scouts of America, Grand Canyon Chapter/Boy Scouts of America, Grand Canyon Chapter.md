@@ -22,5 +22,5 @@ The council's mission and vision are tied to the broader Boy Scouts of America p
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Andy Price | Scout Executive and Chief Executive Officer | Photo not available |
+| Andy Price | Scout Executive and Chief Executive Officer | ![Andy Price](images/Andy_Price.jpeg)|
 

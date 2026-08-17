@@ -26,4 +26,4 @@ AHS's vision is reflected in its commitment to transform animal welfare by reduc
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Steven Hansen | President and Chief Executive Officer | Photo not available |
+| Steven Hansen | President and Chief Executive Officer | ![Steven Hansen](images/steve_hansen.jpg) |

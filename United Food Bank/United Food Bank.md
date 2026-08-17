@@ -24,4 +24,4 @@ The mission also reflects a belief that ending hunger requires broad collaborati
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Jason Reed | President and Chief Executive Officer | Photo not available |
+| Jason Reed | President and Chief Executive Officer | ![Jason Reed](images/Jason-Reed.jpg) |

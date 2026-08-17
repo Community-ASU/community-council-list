@@ -22,5 +22,5 @@ The Foundation frames its work as turning Wright's philosophy into action for a 
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Joseph Specter | President & Chief Executive Officer | Photo not available |
+| Joseph Specter | President & Chief Executive Officer | ![Joseph Specter](images/joseph-specter.jpg) |
 

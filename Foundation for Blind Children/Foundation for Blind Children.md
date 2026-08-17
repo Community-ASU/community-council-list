@@ -28,4 +28,4 @@ The organization is guided by core values that include exceptional service, advo
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Jared Kittleson | Chief Executive Officer | Photo not available |
+| Jared Kittleson | Chief Executive Officer | ![Jared Kittleson](images/Jared_Kittelson.jpg) |

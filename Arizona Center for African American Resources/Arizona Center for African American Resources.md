@@ -26,4 +26,4 @@ The organization frames its work around resource-sharing, community collaboratio
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Roy Thomas Dawson | Executive Director | Photo not available |
+| Roy Thomas Dawson | Executive Director | ![Roy Thomas Dawson](images/Roy_Dawson.jpg) |

@@ -24,5 +24,5 @@ The organization frames its work around bold scientific progress and practical i
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Michael Simoni | Territory Executive | Photo not available |
+| Michael Simoni | Territory Executive | ![Michael Simoni](images/Michael_Simoni.jpeg) |
 

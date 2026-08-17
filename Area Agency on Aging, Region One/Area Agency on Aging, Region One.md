@@ -26,4 +26,4 @@ The organization works toward that mission by coordinating services, building pa
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Mary Lynn Kasunic | President and Chief Executive Officer | Photo not available |
+| Mary Lynn Kasunic | President and Chief Executive Officer | ![Mary Lynn Kasunic](images/Mary_Lynn.jpg) |

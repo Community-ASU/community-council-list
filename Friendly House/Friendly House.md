@@ -22,4 +22,4 @@ The mission is reflected across its services: adult education, family support, l
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Avein Saaty-Tafoya | CEO and President | Photo not available |
+| Avein Saaty-Tafoya | CEO and President | ![Avein Saaty-Tafoya](images/Avein-Saaty-Tafoya.jpg) |

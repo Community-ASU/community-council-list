@@ -26,4 +26,4 @@ Its vision is reflected in its commitment to ending hunger and building a food-s
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Milton Liu | President and Chief Executive Officer | Photo not available |
+| Milton Liu | President and Chief Executive Officer | ![Milton Liu](images/milton-liu.jpg) |

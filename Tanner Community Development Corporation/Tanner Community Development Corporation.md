@@ -28,4 +28,4 @@ TCDC's vision is reflected in its commitment to be a beacon of hope for the comm
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Kerwin V. Brown | Executive Director | Photo not available |
+| Kerwin V. Brown | Executive Director | ![Kerwin V. Brown](images/kerwin-brown.jpg)  |

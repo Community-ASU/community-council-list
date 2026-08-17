@@ -24,5 +24,5 @@ The organization's mission and vision emphasize access, alignment, and measurabl
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Rich Nickel | President and Chief Executive Officer | Photo not available |
+| Rich Nickel | President and Chief Executive Officer | ![Rich Nickel](images/Rich-Nickel.jpg) |
 

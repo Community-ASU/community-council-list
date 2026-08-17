@@ -22,4 +22,4 @@ The organization carries out that mission through prevention, intervention, and 
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Torrie Taj | Chief Executive Officer | Photo not available |
+| Torrie Taj | Chief Executive Officer | ![Torrie Taj](images/Torrie_Taj.jpg) |

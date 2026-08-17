@@ -33,5 +33,5 @@ These values show up across UMOM's shelter, housing, employment, and support pro
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Monique Lopez | Chief Executive Officer | Photo not available |
+| Monique Lopez | Chief Executive Officer | ![Monique Lopez](images/Monique-Lopez.jpg) |
 

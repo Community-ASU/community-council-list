@@ -22,5 +22,5 @@ The organization frames its work as both healing and preventive. By combining cr
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Matt Sandoval | Executive Director | Photo not available |
+| Matt Sandoval | Executive Director | ![Matt Sandoval ](images/Matt-Sandoval.jpg) |
 

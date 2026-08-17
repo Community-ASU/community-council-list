@@ -24,5 +24,5 @@ The mission is carried out through affordable homeownership, critical repairs, n
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Todd Rogers | President and Chief Executive Officer | Photo not available |
+| Todd Rogers | President and Chief Executive Officer | ![Todd Rogers](images/Todd-Rogers.jpg) |
 

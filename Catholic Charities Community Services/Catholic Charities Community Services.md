@@ -26,5 +26,5 @@ Taken together, those principles make the mission broader than any single progra
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Paul Mulligan | President and Chief Executive Officer | Photo not available |
+| Paul Mulligan | President and Chief Executive Officer | ![Paul Mulligan](images/Paul-Mulligan.jpg) |
 

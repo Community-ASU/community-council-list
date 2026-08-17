@@ -26,4 +26,4 @@ JA Arizona's broader vision is reflected in its commitment to expanding pathways
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Katherine Kemmeries Cecala | President | Photo not available |
+| Katherine Kemmeries Cecala | President | ![Katherine Kemmeries Cecala](images/Katherine_Cecala.jpg) |

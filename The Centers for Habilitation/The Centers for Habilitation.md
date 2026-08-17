@@ -28,4 +28,4 @@ Its vision is reflected in its belief that Arizona's adults with disabilities th
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Jeff Bernick | Chief Executive Officer | Photo not available |
+| Jeff Bernick | Chief Executive Officer |  ![Jeffrey Bernick](images/Jeffrey-Bernick.jpg) |

@@ -26,4 +26,4 @@ The organization is guided by core values that include anti-racism, integrity, c
 
 | Name | Designation | Photo |
 | --- | --- | --- |
-| Robyn Julien | Chief Executive Officer | Photo not available |
+| Robyn Julien | Chief Executive Officer | ![Robyn Julien](images/Robyn-Julien.jpg) |
