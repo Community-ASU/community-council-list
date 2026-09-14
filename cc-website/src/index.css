@@ -1,0 +1,35 @@
+:root {
+  --asu-maroon: #8c1d40;
+  --asu-gold: #ffc627;
+  --asu-black: #000000;
+  --asu-gray: #747474;
+  --ink: #191919;
+  --muted: #5f6368;
+  --page: #f7f7f3;
+  --surface: #fafafa;
+  --border: #e2dfd7;
+  --border-strong: #b9b4a8;
+  color: var(--ink);
+  background: var(--page);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
