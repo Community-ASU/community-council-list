@@ -12,6 +12,9 @@ const getInitials = (name: string) =>
     .map((part) => part[0])
     .join('')
 
+const assetUrl = (url: string) =>
+  url.startsWith('/') ? `${import.meta.env.BASE_URL}${url.slice(1)}` : url
+
 const paragraphs = (content: string) =>
   content
     .split('\n\n')
@@ -30,7 +33,7 @@ function LeaderPhoto({ leader, large = false }: { leader: Leader; large?: boolea
     return (
       <img
         className={large ? 'leader-photo large' : 'leader-photo'}
-        src={leader.photo}
+        src={assetUrl(leader.photo)}
         alt={leader.name}
       />
     )
@@ -305,7 +308,7 @@ function App() {
         <div className="image-viewer-backdrop" onClick={() => setImageViewer(null)} role="presentation">
           <section className="image-viewer" aria-label={`${imageViewer.name} full picture`} onClick={(event) => event.stopPropagation()}>
             <button className="image-viewer-close" onClick={() => setImageViewer(null)} type="button">Close</button>
-            {imageViewer.photo ? <img src={imageViewer.photo} alt={imageViewer.name} /> : <div className="image-viewer-fallback">{getInitials(imageViewer.name)}</div>}
+            {imageViewer.photo ? <img src={assetUrl(imageViewer.photo)} alt={imageViewer.name} /> : <div className="image-viewer-fallback">{getInitials(imageViewer.name)}</div>}
             <strong>{imageViewer.name}</strong>
             <span>{imageViewer.title}</span>
           </section>
