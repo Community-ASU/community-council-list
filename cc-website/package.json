@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://test.mavorynai.com",
   "scripts": {
     "dev": "vite",
     "generate:data": "node scripts/generate-partner-data.mjs",
