@@ -2,7 +2,12 @@ import { useEffect, useMemo, useState } from 'react'
 import { partners, type Leader, type Partner } from './data/partners'
 import './App.css'
 
-const focusAreas = ['All partners', 'FY25 VSUW funded', 'Not FY25 VSUW funded']
+const focusAreas = [
+  'All partners',
+  'FY25 VSUW funded',
+  'Not FY25 VSUW funded',
+  'ASU alumni',
+]
 
 const getInitials = (name: string) =>
   name
@@ -27,6 +32,10 @@ const statusLabel = (partner: Partner) =>
     : partner.status.toLowerCase().includes('not available')
       ? 'FY25 VSUW status unavailable'
       : 'Not FY25 VSUW funded'
+
+const isAsuAlum = (partner: Partner) => partner.asuAlum.toLowerCase() === 'yes'
+const alumLabel = (partner: Partner) =>
+  isAsuAlum(partner) ? '🔱 ASU alum' : partner.asuAlum ? 'Not ASU alum' : 'Alum status needed'
 
 function LeaderPhoto({ leader, large = false }: { leader: Leader; large?: boolean }) {
   if (leader.photo) {
@@ -63,17 +72,20 @@ function App() {
       const matchesFilter =
         activeFilter === 'All partners' ||
         (activeFilter === 'FY25 VSUW funded' && partner.funded) ||
-        (activeFilter === 'Not FY25 VSUW funded' && !partner.funded)
+        (activeFilter === 'Not FY25 VSUW funded' && !partner.funded) ||
+        (activeFilter === 'ASU alumni' && isAsuAlum(partner))
       const matchesSearch =
         !normalizedQuery ||
         partner.organization.toLowerCase().includes(normalizedQuery) ||
-        partner.leader.toLowerCase().includes(normalizedQuery)
+        partner.leader.toLowerCase().includes(normalizedQuery) ||
+        partner.asuAlumDetails.toLowerCase().includes(normalizedQuery)
 
       return matchesFilter && matchesSearch
     })
   }, [activeFilter, query])
 
   const fundedCount = partners.filter((partner) => partner.funded).length
+  const asuAlumCount = partners.filter(isAsuAlum).length
   const selectedLeader =
     selected?.leadership.find((leader) => leader.name === selected.leader) ??
     selected?.leadership[0]
@@ -104,8 +116,8 @@ function App() {
             <strong>{fundedCount}</strong>
           </div>
           <div>
-            <span>Leadership profiles</span>
-            <strong>{partners.reduce((count, partner) => count + partner.leadership.length, 0)}</strong>
+            <span>🔱 ASU alumni</span>
+            <strong>{asuAlumCount}</strong>
           </div>
         </div>
       </header>
@@ -165,9 +177,14 @@ function App() {
                   >
                     <LeaderPhoto leader={leader} />
                   </button>
-                  <span className={partner.funded ? 'badge funded' : 'badge'}>
-                    {partner.funded ? 'FY25 VSUW funded' : 'Not FY25 VSUW funded'}
-                  </span>
+                  <div className="badge-stack">
+                    <span className={partner.funded ? 'badge funded' : 'badge'}>
+                      {partner.funded ? 'FY25 VSUW funded' : 'Not FY25 VSUW funded'}
+                    </span>
+                    <span className={isAsuAlum(partner) ? 'badge gold' : 'badge'}>
+                      {alumLabel(partner)}
+                    </span>
+                  </div>
                 </div>
                 <button className="org-button" type="button">
                   {partner.organization}
@@ -212,6 +229,12 @@ function App() {
               >
                 {statusLabel(selected)}
               </span>
+              <span
+                className={isAsuAlum(selected) ? 'badge gold' : 'badge'}
+                title={selected.asuAlumDetails || alumLabel(selected)}
+              >
+                {alumLabel(selected)}
+              </span>
               <h2>{selected.organization}</h2>
               <p>{selected.leader}</p>
               <p>{selected.position}</p>
@@ -219,6 +242,11 @@ function App() {
                 <a href={selected.website} target="_blank" rel="noreferrer">
                   Website
                 </a>
+                {selected.linkedin ? (
+                  <a href={selected.linkedin} target="_blank" rel="noreferrer">
+                    LinkedIn
+                  </a>
+                ) : null}
                 <button type="button">Collaboratory</button>
                 <button type="button">Google Drive</button>
               </div>
@@ -289,8 +317,24 @@ function App() {
                         {selected.organization}. This profile is connected to the
                         organization's public profile, funding status, and source notes.
                       </p>
+                      {selected.linkedin ? (
+                        <a
+                          className="profile-link"
+                          href={selected.linkedin}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          LinkedIn
+                        </a>
+                      ) : null}
                     </div>
                   </section>
+                  {isAsuAlum(selected) ? (
+                    <section>
+                      <h3>🔱 ASU Alum Details</h3>
+                      <p>{selected.asuAlumDetails || 'Listed as an ASU alum.'}</p>
+                    </section>
+                  ) : null}
                   <section>
                     <h3>Organization Context</h3>
                     <p>{paragraphs(selected.about)[0]}</p>

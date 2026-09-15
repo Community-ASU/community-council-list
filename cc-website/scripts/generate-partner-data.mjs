@@ -4,10 +4,52 @@ import path from 'node:path'
 const repoRoot = path.resolve(process.cwd(), '..')
 const appRoot = process.cwd()
 const sourcePath = path.join(repoRoot, 'asu_community_council.json')
+const councilDatabasePath = path.join(repoRoot, 'cc-db.csv')
 const outputPath = path.join(appRoot, 'src/data/partners.ts')
 const imageOutputRoot = path.join(appRoot, 'public/partner-images')
 
 const partners = JSON.parse(fs.readFileSync(sourcePath, 'utf8'))
+
+const parseCsv = (content) => {
+  const rows = []
+  let row = []
+  let cell = ''
+  let inQuotes = false
+
+  for (let index = 0; index < content.length; index += 1) {
+    const char = content[index]
+    const next = content[index + 1]
+
+    if (char === '"' && inQuotes && next === '"') {
+      cell += '"'
+      index += 1
+    } else if (char === '"') {
+      inQuotes = !inQuotes
+    } else if (char === ',' && !inQuotes) {
+      row.push(cell)
+      cell = ''
+    } else if ((char === '\n' || char === '\r') && !inQuotes) {
+      if (char === '\r' && next === '\n') index += 1
+      row.push(cell)
+      if (row.some((value) => value.trim())) rows.push(row)
+      row = []
+      cell = ''
+    } else {
+      cell += char
+    }
+  }
+
+  if (cell || row.length) {
+    row.push(cell)
+    if (row.some((value) => value.trim())) rows.push(row)
+  }
+
+  const [headers = [], ...records] = rows
+
+  return records.map((record) =>
+    Object.fromEntries(headers.map((header, index) => [header.trim(), record[index]?.trim() ?? ''])),
+  )
+}
 
 const slugify = (value) =>
   value
@@ -23,6 +65,25 @@ const normalizeWebsite = (url) => {
   }
   return url
 }
+
+const councilRows = fs.existsSync(councilDatabasePath)
+  ? parseCsv(fs.readFileSync(councilDatabasePath, 'utf8'))
+  : []
+
+const councilRowByLeader = new Map(
+  councilRows.map((row) => [
+    `${row['First name'] ?? ''} ${row['Last name'] ?? ''}`
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase(),
+    row,
+  ]),
+)
+
+const getCouncilRow = (partner) =>
+  councilRowByLeader.get(partner.name.replace(/\s+/g, ' ').trim().toLowerCase()) ??
+  councilRows.find((row) => slugify(row.Organization ?? '') === slugify(partner.organization)) ??
+  null
 
 const getSection = (markdown, heading) => {
   const pattern = new RegExp(`## ${heading}\\n([\\s\\S]*?)(?=\\n## |$)`)
@@ -81,6 +142,7 @@ const parseSources = (markdown) =>
     .filter(Boolean)
 
 const records = partners.map((partner) => {
+  const councilRow = getCouncilRow(partner)
   const slug = slugify(partner.organization)
   const matchingDir = fs
     .readdirSync(repoRoot, { withFileTypes: true })
@@ -106,6 +168,10 @@ const records = partners.map((partner) => {
     primaryPhoto: primaryLeader?.photo ?? '',
     sources: parseSources(markdown),
     profilePath: `${orgDirName}/${orgDirName}.md`,
+    asuAlum: councilRow?.['ASU Alum?'] ?? '',
+    asuAlumDetails: councilRow?.['ASU alum details'] ?? '',
+    linkedin: (councilRow?.['LinkedIn profile'] ?? '').trim(),
+    councilNotes: councilRow?.['Edits/Comments'] ?? '',
   }
 })
 
@@ -129,6 +195,10 @@ export type Partner = {
   primaryPhoto: string
   sources: string[]
   profilePath: string
+  asuAlum: string
+  asuAlumDetails: string
+  linkedin: string
+  councilNotes: string
 }
 
 export const partners: Partner[] = ${JSON.stringify(records, null, 2)}

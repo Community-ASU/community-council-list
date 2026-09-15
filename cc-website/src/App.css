@@ -12,7 +12,9 @@
   align-items: stretch;
   padding: 48px;
   color: white;
-  background: var(--asu-maroon);
+  background:
+    radial-gradient(circle at 88% 18%, rgba(255, 198, 39, 0.28), transparent 24%),
+    linear-gradient(135deg, #5c0f2f 0%, var(--asu-maroon) 58%, #231f20 100%);
 }
 
 .hero-copy {
@@ -190,7 +192,7 @@
 }
 
 .partner-card {
-  min-height: 238px;
+  min-height: 278px;
   display: flex;
   flex-direction: column;
   gap: 13px;
@@ -204,6 +206,22 @@
     border-color 160ms ease,
     box-shadow 160ms ease,
     transform 160ms ease;
+}
+
+.task-row {
+  display: grid;
+  gap: 7px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.task-row span {
+  display: block;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .partner-card:hover {
@@ -269,6 +287,9 @@
   width: 132px;
   height: 132px;
   border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .avatar {
@@ -278,6 +299,8 @@
   background: var(--asu-maroon);
   font-size: 18px;
   font-weight: 900;
+  line-height: 1;
+  text-align: center;
 }
 
 .avatar.large {
@@ -290,6 +313,12 @@
   color: var(--muted);
   background: #efefef;
   font-size: 11px;
+}
+
+.badge-stack {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
 }
 
 .badge.funded {
@@ -370,6 +399,28 @@
 .modal-rail p {
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.rail-facts {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.rail-facts span {
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.rail-facts strong {
+  color: white;
+  font-size: 13px;
+  line-height: 1.35;
 }
 
 .modal-rail .badge {
@@ -460,6 +511,56 @@
   line-height: 1.62;
 }
 
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.action-grid article {
+  display: grid;
+  gap: 8px;
+  min-height: 142px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--asu-gold);
+  border-radius: 8px;
+  background: #fffdf5;
+}
+
+.action-grid span {
+  color: var(--asu-maroon);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.action-grid strong {
+  color: var(--ink);
+  font-size: 24px;
+  line-height: 1.05;
+}
+
+.action-grid p {
+  overflow-wrap: anywhere;
+}
+
+.profile-link {
+  width: fit-content;
+  border: 1px solid rgba(140, 29, 64, 0.22);
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: white;
+  background: var(--asu-maroon);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  color: var(--asu-maroon);
+  background: var(--asu-gold);
+}
+
 .leadership-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -499,8 +600,14 @@
   background: var(--surface);
 }
 
+.person-focus > div {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+
 .person-focus h3 {
-  margin-top: 12px;
+  margin: 0;
   font-size: 34px;
 }
 
@@ -618,6 +725,10 @@
 
   .segments {
     overflow-x: auto;
+  }
+
+  .action-grid {
+    grid-template-columns: 1fr;
   }
 
   .profile-modal {

@@ -18,6 +18,10 @@ export type Partner = {
   primaryPhoto: string
   sources: string[]
   profilePath: string
+  asuAlum: string
+  asuAlumDetails: string
+  linkedin: string
+  councilNotes: string
 }
 
 export const partners: Partner[] = [
@@ -76,7 +80,11 @@ export const partners: Partner[] = [
       "Arizona Gives profile: https://www.azgives.org/organization/Hopewomenscenter",
       "FY25 Valley of the Sun United Way partner list: `../ref.pdf`"
     ],
-    "profilePath": "Hope Women's Center/Hope Women's Center.md"
+    "profilePath": "Hope Women's Center/Hope Women's Center.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/tammy-abernethy-6328b120/",
+    "councilNotes": ""
   },
   {
     "slug": "aid-to-adoption-of-special-kids-arizona",
@@ -97,7 +105,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "",
     "sources": [],
-    "profilePath": "Aid to Adoption of Special Kids, Arizona/Aid to Adoption of Special Kids, Arizona.md"
+    "profilePath": "Aid to Adoption of Special Kids, Arizona/Aid to Adoption of Special Kids, Arizona.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/ron-adelson-7a68951b1/",
+    "councilNotes": ""
   },
   {
     "slug": "read-better-be-better",
@@ -118,7 +130,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/read-better-be-better/Sophie_Allen_Etchart.avif",
     "sources": [],
-    "profilePath": "Read Better Be Better/Read Better Be Better.md"
+    "profilePath": "Read Better Be Better/Read Better Be Better.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/sophieallenetchart/",
+    "councilNotes": ""
   },
   {
     "slug": "teach-for-america-phoenix",
@@ -139,7 +155,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/teach-for-america-phoenix/Lauren_Arndt.jpg",
     "sources": [],
-    "profilePath": "Teach For America Phoenix/Teach For America Phoenix.md"
+    "profilePath": "Teach For America Phoenix/Teach For America Phoenix.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/lauren-forrester-arndt-b0b57966/",
+    "councilNotes": ""
   },
   {
     "slug": "rosie-s-house",
@@ -160,7 +180,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/rosie-s-house/Becky_Bell_Ballard.png",
     "sources": [],
-    "profilePath": "Rosie's House/Rosie's House.md"
+    "profilePath": "Rosie's House/Rosie's House.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2006, Mass communication",
+    "linkedin": "https://www.linkedin.com/in/becky-bell-ballard-37bb064/",
+    "councilNotes": ""
   },
   {
     "slug": "the-centers-for-habilitation",
@@ -181,7 +205,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/the-centers-for-habilitation/Jeffrey-Bernick.jpg",
     "sources": [],
-    "profilePath": "The Centers for Habilitation/The Centers for Habilitation.md"
+    "profilePath": "The Centers for Habilitation/The Centers for Habilitation.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/jeffrey-bernick-956005173/",
+    "councilNotes": ""
   },
   {
     "slug": "allthrive-365",
@@ -202,7 +230,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/allthrive-365/Tamara_Bohannon.jpeg",
     "sources": [],
-    "profilePath": "AllThrive 365/AllThrive 365.md"
+    "profilePath": "AllThrive 365/AllThrive 365.md",
+    "asuAlum": "",
+    "asuAlumDetails": "",
+    "linkedin": "",
+    "councilNotes": ""
   },
   {
     "slug": "wesley-health-and-community-centers",
@@ -223,7 +255,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/wesley-health-and-community-centers/Blaine-Bandi.jpg",
     "sources": [],
-    "profilePath": "Wesley Health and Community Centers/Wesley Health and Community Centers.md"
+    "profilePath": "Wesley Health and Community Centers/Wesley Health and Community Centers.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2012, MS legal studies; 1983 MHSA",
+    "linkedin": "https://www.linkedin.com/in/blaine-bandi-b2258515/",
+    "councilNotes": ""
   },
   {
     "slug": "phoenix-rescue-mission",
@@ -244,7 +280,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/phoenix-rescue-mission/Ken_Brissa.jpeg",
     "sources": [],
-    "profilePath": "Phoenix Rescue Mission/Phoenix Rescue Mission.md"
+    "profilePath": "Phoenix Rescue Mission/Phoenix Rescue Mission.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/kenbrissa",
+    "councilNotes": ""
   },
   {
     "slug": "tanner-community-development-corporation",
@@ -265,7 +305,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/tanner-community-development-corporation/kerwin-brown.jpg",
     "sources": [],
-    "profilePath": "Tanner Community Development Corporation/Tanner Community Development Corporation.md"
+    "profilePath": "Tanner Community Development Corporation/Tanner Community Development Corporation.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/kerwinvbrown/",
+    "councilNotes": ""
   },
   {
     "slug": "valley-leadership",
@@ -286,7 +330,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/valley-leadership/Dave_Brown.png",
     "sources": [],
-    "profilePath": "Valley Leadership/Valley Leadership.md"
+    "profilePath": "Valley Leadership/Valley Leadership.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/dave-brown-9954511/",
+    "councilNotes": ""
   },
   {
     "slug": "big-brothers-big-sisters-of-central-arizona",
@@ -307,7 +355,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/big-brothers-big-sisters-of-central-arizona/Debbie_Castillo_Smith.jpg",
     "sources": [],
-    "profilePath": "Big Brothers Big Sisters of Central Arizona/Big Brothers Big Sisters of Central Arizona.md"
+    "profilePath": "Big Brothers Big Sisters of Central Arizona/Big Brothers Big Sisters of Central Arizona.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2000, BS non profit management",
+    "linkedin": "https://www.linkedin.com/in/debbie-castillo-smith-12ab5136/",
+    "councilNotes": ""
   },
   {
     "slug": "the-society-of-st-vincent-de-paul",
@@ -328,7 +380,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/the-society-of-st-vincent-de-paul/Shannon_Clancy.jpg",
     "sources": [],
-    "profilePath": "The Society of St. Vincent de Paul/The Society of St. Vincent de Paul.md"
+    "profilePath": "The Society of St. Vincent de Paul/The Society of St. Vincent de Paul.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/shannon-clancy-05310a6a",
+    "councilNotes": ""
   },
   {
     "slug": "arizona-center-for-african-american-resources",
@@ -349,7 +405,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/arizona-center-for-african-american-resources/Roy_Dawson.jpg",
     "sources": [],
-    "profilePath": "Arizona Center for African American Resources/Arizona Center for African American Resources.md"
+    "profilePath": "Arizona Center for African American Resources/Arizona Center for African American Resources.md",
+    "asuAlum": "",
+    "asuAlumDetails": "",
+    "linkedin": "https://azcaar.org/roy-dawson/",
+    "councilNotes": ""
   },
   {
     "slug": "greater-phoenix-urban-league",
@@ -370,7 +430,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/greater-phoenix-urban-league/George_Dean.jpg",
     "sources": [],
-    "profilePath": "Greater Phoenix Urban League/Greater Phoenix Urban League.md"
+    "profilePath": "Greater Phoenix Urban League/Greater Phoenix Urban League.md",
+    "asuAlum": "",
+    "asuAlumDetails": "",
+    "linkedin": "",
+    "councilNotes": ""
   },
   {
     "slug": "boys-and-girls-club-of-greater-scottsdale",
@@ -391,7 +455,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/boys-and-girls-club-of-greater-scottsdale/Ivan_Gilreath.png",
     "sources": [],
-    "profilePath": "Boys and Girls Club of Greater Scottsdale/Boys and Girls Club of Greater Scottsdale.md"
+    "profilePath": "Boys and Girls Club of Greater Scottsdale/Boys and Girls Club of Greater Scottsdale.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/ivan-gilreath-58b1176/",
+    "councilNotes": ""
   },
   {
     "slug": "the-salvation-army-southwest-division",
@@ -412,7 +480,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/the-salvation-army-southwest-division/lt-colonelhenrygraciani.jpg",
     "sources": [],
-    "profilePath": "The Salvation Army, Southwest Division/The Salvation Army, Southwest Division.md"
+    "profilePath": "The Salvation Army, Southwest Division/The Salvation Army, Southwest Division.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.bizjournals.com/phoenix/potmsearch/detail/submission/6568274/Lt_Colonel_Henry_Graciani",
+    "councilNotes": ""
   },
   {
     "slug": "arizona-humane-society",
@@ -433,7 +505,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/arizona-humane-society/steve_hansen.jpg",
     "sources": [],
-    "profilePath": "Arizona Humane Society/Arizona Humane Society.md"
+    "profilePath": "Arizona Humane Society/Arizona Humane Society.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "",
+    "councilNotes": ""
   },
   {
     "slug": "community-bridges",
@@ -454,7 +530,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/community-bridges/John_Hogeboom.jpg",
     "sources": [],
-    "profilePath": "Community Bridges/Community Bridges.md"
+    "profilePath": "Community Bridges/Community Bridges.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "BS in Administration of Justice",
+    "linkedin": "https://www.zoominfo.com/p/John-Hogeboom/1071218280",
+    "councilNotes": ""
   },
   {
     "slug": "valley-of-the-sun-united-way",
@@ -475,7 +555,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/valley-of-the-sun-united-way/Carla_Vargas_Jasa.png",
     "sources": [],
-    "profilePath": "Valley of the Sun United Way/Valley of the Sun United Way.md"
+    "profilePath": "Valley of the Sun United Way/Valley of the Sun United Way.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/carla-vargas-jasa-58b5b81/",
+    "councilNotes": ""
   },
   {
     "slug": "save-the-family-foundation-of-arizona",
@@ -496,7 +580,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/save-the-family-foundation-of-arizona/Robyn-Julien.jpg",
     "sources": [],
-    "profilePath": "Save the Family Foundation of Arizona/Save the Family Foundation of Arizona.md"
+    "profilePath": "Save the Family Foundation of Arizona/Save the Family Foundation of Arizona.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/robyn-julien-13940223/",
+    "councilNotes": ""
   },
   {
     "slug": "area-agency-on-aging-region-one",
@@ -517,7 +605,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/area-agency-on-aging-region-one/Mary_Lynn.jpg",
     "sources": [],
-    "profilePath": "Area Agency on Aging, Region One/Area Agency on Aging, Region One.md"
+    "profilePath": "Area Agency on Aging, Region One/Area Agency on Aging, Region One.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/mary-lynn-kasunic-764",
+    "councilNotes": ""
   },
   {
     "slug": "junior-achievement-of-arizona",
@@ -538,7 +630,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/junior-achievement-of-arizona/Katherine_Cecala.jpg",
     "sources": [],
-    "profilePath": "Junior Achievement of Arizona/Junior Achievement of Arizona.md"
+    "profilePath": "Junior Achievement of Arizona/Junior Achievement of Arizona.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/katherine-cecala-909b225/",
+    "councilNotes": ""
   },
   {
     "slug": "foundation-for-blind-children",
@@ -559,7 +655,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/foundation-for-blind-children/Jared_Kittelson.jpg",
     "sources": [],
-    "profilePath": "Foundation for Blind Children/Foundation for Blind Children.md"
+    "profilePath": "Foundation for Blind Children/Foundation for Blind Children.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/jaredkittelson/",
+    "councilNotes": ""
   },
   {
     "slug": "st-mary-s-food-bank",
@@ -580,7 +680,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/st-mary-s-food-bank/milton-liu.jpg",
     "sources": [],
-    "profilePath": "St. Mary's Food Bank/St. Mary's Food Bank.md"
+    "profilePath": "St. Mary's Food Bank/St. Mary's Food Bank.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/miltliu/",
+    "councilNotes": ""
   },
   {
     "slug": "umom-new-day-centers",
@@ -601,7 +705,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/umom-new-day-centers/Monique-Lopez.jpg",
     "sources": [],
-    "profilePath": "UMOM New Day Centers/UMOM New Day Centers.md"
+    "profilePath": "UMOM New Day Centers/UMOM New Day Centers.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/mojo714/",
+    "councilNotes": ""
   },
   {
     "slug": "valley-of-the-sun-ymca",
@@ -622,7 +730,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/valley-of-the-sun-ymca/Bryan-Madden.jpg",
     "sources": [],
-    "profilePath": "Valley of the Sun YMCA/Valley of the Sun YMCA.md"
+    "profilePath": "Valley of the Sun YMCA/Valley of the Sun YMCA.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/bryan-madden-01710410a/",
+    "councilNotes": ""
   },
   {
     "slug": "make-a-wish-arizona",
@@ -643,7 +755,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/make-a-wish-arizona/Fran_Mallace.jpg",
     "sources": [],
-    "profilePath": "Make-A-Wish Arizona/Make-A-Wish Arizona.md"
+    "profilePath": "Make-A-Wish Arizona/Make-A-Wish Arizona.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2007, EMBA global business",
+    "linkedin": "https://www.linkedin.com/in/fran-mallace-45b2981/",
+    "councilNotes": ""
   },
   {
     "slug": "boys-and-girls-club-of-the-valley",
@@ -664,7 +780,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/boys-and-girls-club-of-the-valley/Marcia_Mintz.jpg",
     "sources": [],
-    "profilePath": "Boys and Girls Club of the Valley/Boys and Girls Club of the Valley.md"
+    "profilePath": "Boys and Girls Club of the Valley/Boys and Girls Club of the Valley.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.bgcaz.org/marcia-mintz/",
+    "councilNotes": ""
   },
   {
     "slug": "catholic-charities-community-services",
@@ -685,7 +805,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/catholic-charities-community-services/Paul-Mulligan.jpg",
     "sources": [],
-    "profilePath": "Catholic Charities Community Services/Catholic Charities Community Services.md"
+    "profilePath": "Catholic Charities Community Services/Catholic Charities Community Services.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2015, MBA",
+    "linkedin": "https://www.linkedin.com/in/paul-s-mulligan-056b22a/",
+    "councilNotes": ""
   },
   {
     "slug": "education-forward-arizona",
@@ -706,7 +830,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/education-forward-arizona/Rich-Nickel.jpg",
     "sources": [],
-    "profilePath": "Education Forward Arizona/Education Forward Arizona.md"
+    "profilePath": "Education Forward Arizona/Education Forward Arizona.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/rich-nickel-phoenix-az",
+    "councilNotes": ""
   },
   {
     "slug": "southwest-autism-research-and-resource-center",
@@ -727,7 +855,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/southwest-autism-research-and-resource-center/Daniel_Openden.jpg",
     "sources": [],
-    "profilePath": "Southwest Autism Research and Resource Center/Southwest Autism Research and Resource Center.md"
+    "profilePath": "Southwest Autism Research and Resource Center/Southwest Autism Research and Resource Center.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/daniel-openden-2203834/",
+    "councilNotes": ""
   },
   {
     "slug": "boy-scouts-of-america-grand-canyon-chapter",
@@ -748,7 +880,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/boy-scouts-of-america-grand-canyon-chapter/Andy_Price.jpeg",
     "sources": [],
-    "profilePath": "Boy Scouts of America, Grand Canyon Chapter/Boy Scouts of America, Grand Canyon Chapter.md"
+    "profilePath": "Boy Scouts of America, Grand Canyon Chapter/Boy Scouts of America, Grand Canyon Chapter.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2027, Executive MBA",
+    "linkedin": "https://www.linkedin.com/in/andy-price-08856b11/",
+    "councilNotes": ""
   },
   {
     "slug": "united-food-bank",
@@ -769,7 +905,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/united-food-bank/Jason-Reed.jpg",
     "sources": [],
-    "profilePath": "United Food Bank/United Food Bank.md"
+    "profilePath": "United Food Bank/United Food Bank.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/jasonreedaz/",
+    "councilNotes": ""
   },
   {
     "slug": "valle-del-sol",
@@ -790,7 +930,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/valle-del-sol/Mike_Renaud.webp",
     "sources": [],
-    "profilePath": "Valle del Sol/Valle del Sol.md"
+    "profilePath": "Valle del Sol/Valle del Sol.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/mike-renaud-7b556455/",
+    "councilNotes": ""
   },
   {
     "slug": "ability360",
@@ -811,7 +955,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/ability360/Christopher_Rodriguez.jpg",
     "sources": [],
-    "profilePath": "Ability360/Ability360.md"
+    "profilePath": "Ability360/Ability360.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/christopher-j-rodriguez-29a6baa/",
+    "councilNotes": ""
   },
   {
     "slug": "habitat-for-humanity-central-arizona",
@@ -832,7 +980,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/habitat-for-humanity-central-arizona/Todd-Rogers.jpg",
     "sources": [],
-    "profilePath": "Habitat for Humanity Central Arizona/Habitat for Humanity Central Arizona.md"
+    "profilePath": "Habitat for Humanity Central Arizona/Habitat for Humanity Central Arizona.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "1991, BS finance",
+    "linkedin": "https://www.linkedin.com/in/toddarogers/",
+    "councilNotes": ""
   },
   {
     "slug": "delivering-dreams-of-arizona",
@@ -853,7 +1005,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/delivering-dreams-of-arizona/Aimee_Runyon.jpeg",
     "sources": [],
-    "profilePath": "Delivering Dreams of Arizona/Delivering Dreams of Arizona.md"
+    "profilePath": "Delivering Dreams of Arizona/Delivering Dreams of Arizona.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "1993, BS communicatio",
+    "linkedin": "https://www.linkedin.com/in/aimee-runyon-9a68089/",
+    "councilNotes": ""
   },
   {
     "slug": "friendly-house",
@@ -874,7 +1030,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/friendly-house/Avein-Saaty-Tafoya.jpg",
     "sources": [],
-    "profilePath": "Friendly House/Friendly House.md"
+    "profilePath": "Friendly House/Friendly House.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "",
+    "councilNotes": ""
   },
   {
     "slug": "free-arts-for-abused-children",
@@ -895,7 +1055,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/free-arts-for-abused-children/Matt-Sandoval.jpg",
     "sources": [],
-    "profilePath": "Free Arts for Abused Children/Free Arts for Abused Children.md"
+    "profilePath": "Free Arts for Abused Children/Free Arts for Abused Children.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "2021, MS social work",
+    "linkedin": "https://www.linkedin.com/in/matt-sandoval-94765b5/",
+    "councilNotes": ""
   },
   {
     "slug": "breakthrough-t1d",
@@ -916,7 +1080,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/breakthrough-t1d/Michael_Simoni.jpeg",
     "sources": [],
-    "profilePath": "Breakthrough T1D/Breakthrough T1D.md"
+    "profilePath": "Breakthrough T1D/Breakthrough T1D.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/michael-v-simoni/",
+    "councilNotes": ""
   },
   {
     "slug": "frank-lloyd-wright-foundation",
@@ -937,7 +1105,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/frank-lloyd-wright-foundation/joseph-specter.jpg",
     "sources": [],
-    "profilePath": "Frank Lloyd Wright Foundation/Frank Lloyd Wright Foundation.md"
+    "profilePath": "Frank Lloyd Wright Foundation/Frank Lloyd Wright Foundation.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/josephspecter/",
+    "councilNotes": ""
   },
   {
     "slug": "alzheimer-s-association-desert-southwest-chapter",
@@ -958,7 +1130,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/alzheimer-s-association-desert-southwest-chapter/Terri_Spitz.jpeg",
     "sources": [],
-    "profilePath": "Alzheimer's Association, Desert Southwest Chapter/Alzheimer's Association, Desert Southwest Chapter.md"
+    "profilePath": "Alzheimer's Association, Desert Southwest Chapter/Alzheimer's Association, Desert Southwest Chapter.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/terrispitz/",
+    "councilNotes": ""
   },
   {
     "slug": "mountain-park-health-center",
@@ -979,7 +1155,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/mountain-park-health-center/John_Swagert.jpg",
     "sources": [],
-    "profilePath": "Mountain Park Health Center/Mountain Park Health Center.md"
+    "profilePath": "Mountain Park Health Center/Mountain Park Health Center.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/john-swagert-md/",
+    "councilNotes": ""
   },
   {
     "slug": "child-crisis-arizona",
@@ -1000,7 +1180,11 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/child-crisis-arizona/Torrie_Taj.jpg",
     "sources": [],
-    "profilePath": "Child Crisis Arizona/Child Crisis Arizona.md"
+    "profilePath": "Child Crisis Arizona/Child Crisis Arizona.md",
+    "asuAlum": "Yes",
+    "asuAlumDetails": "1991, BS psychology",
+    "linkedin": "https://www.linkedin.com/in/torrie-taj/",
+    "councilNotes": ""
   },
   {
     "slug": "terros-health",
@@ -1021,6 +1205,10 @@ export const partners: Partner[] = [
     ],
     "primaryPhoto": "/partner-images/terros-health/karen-tepper.jpg",
     "sources": [],
-    "profilePath": "Terros Health/Terros Health.md"
+    "profilePath": "Terros Health/Terros Health.md",
+    "asuAlum": "No",
+    "asuAlumDetails": "",
+    "linkedin": "https://www.linkedin.com/in/karenhtepper/",
+    "councilNotes": ""
   }
 ]
