@@ -303,6 +303,11 @@
   text-align: center;
 }
 
+.avatar.blank {
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
 .avatar.large {
   font-size: 36px;
 }
@@ -477,6 +482,11 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   width: min(360px, 100%);
+}
+
+.detail-tabs.single {
+  grid-template-columns: 1fr;
+  width: fit-content;
 }
 
 .detail-tabs button {
@@ -762,6 +772,10 @@
 
   .detail-tabs {
     width: 100%;
+  }
+
+  .detail-tabs.single {
+    width: fit-content;
   }
 
   .person-focus {

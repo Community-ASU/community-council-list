@@ -21,6 +21,7 @@ export type Partner = {
   asuAlum: string
   asuAlumDetails: string
   linkedin: string
+  collaboratory: string
   councilNotes: string
 }
 
@@ -84,6 +85,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/tammy-abernethy-6328b120/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d2bb70ca-f869-4d82-457f-5164827e3c41",
     "councilNotes": ""
   },
   {
@@ -109,6 +111,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/ron-adelson-7a68951b1/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/c8e8df7c-6c1b-4a21-65fa-17027e598a86",
     "councilNotes": ""
   },
   {
@@ -134,6 +137,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/sophieallenetchart/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/245eccc8-cd11-4c2c-6013-a104568a0970",
     "councilNotes": ""
   },
   {
@@ -159,6 +163,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/lauren-forrester-arndt-b0b57966/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ce859292-e6b7-47ab-5ae7-ddf629ff867a",
     "councilNotes": ""
   },
   {
@@ -184,6 +189,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2006, Mass communication",
     "linkedin": "https://www.linkedin.com/in/becky-bell-ballard-37bb064/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/2645761a-1054-4dfd-6609-55341435a402",
     "councilNotes": ""
   },
   {
@@ -209,6 +215,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/jeffrey-bernick-956005173/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/057b6503-2730-4b8b-41b9-62c69fc24198",
     "councilNotes": ""
   },
   {
@@ -234,6 +241,7 @@ export const partners: Partner[] = [
     "asuAlum": "",
     "asuAlumDetails": "",
     "linkedin": "",
+    "collaboratory": "",
     "councilNotes": ""
   },
   {
@@ -259,6 +267,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2012, MS legal studies; 1983 MHSA",
     "linkedin": "https://www.linkedin.com/in/blaine-bandi-b2258515/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a6ba20e3-6a5f-492e-4fdd-e947440b8d45",
     "councilNotes": ""
   },
   {
@@ -284,6 +293,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/kenbrissa",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/45c929df-3086-4a2e-7a25-5b382370400d",
     "councilNotes": ""
   },
   {
@@ -309,6 +319,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/kerwinvbrown/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a79813ff-592d-46c1-4224-b50a6ebfd182",
     "councilNotes": ""
   },
   {
@@ -334,6 +345,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/dave-brown-9954511/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/593ab337-0f24-4838-5813-a4544c9c20f6",
     "councilNotes": ""
   },
   {
@@ -359,6 +371,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2000, BS non profit management",
     "linkedin": "https://www.linkedin.com/in/debbie-castillo-smith-12ab5136/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/b94fb739-53b3-4221-46ad-3e9d1e591bd9",
     "councilNotes": ""
   },
   {
@@ -384,6 +397,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/shannon-clancy-05310a6a",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/fdd8ffc3-24a7-4e04-4476-b213c5f470f9",
     "councilNotes": ""
   },
   {
@@ -409,31 +423,27 @@ export const partners: Partner[] = [
     "asuAlum": "",
     "asuAlumDetails": "",
     "linkedin": "https://azcaar.org/roy-dawson/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/b91ceec7-aca8-43d2-7e29-4b4378ac2c79",
     "councilNotes": ""
   },
   {
     "slug": "greater-phoenix-urban-league",
     "organization": "Greater Phoenix Urban League",
-    "leader": "George Dean",
-    "position": "President and Chief Executive Officer",
+    "leader": "",
+    "position": "",
     "website": "http://gphxul.org",
     "funded": false,
     "status": "Not an FY25 funded partner of Valley of the Sun United Way.",
     "about": "Greater Phoenix Urban League, commonly known as GPUL, is a Phoenix-based nonprofit and affiliate of the National Urban League. The organization works to support minorities and people in need as they pursue economic and social equality through programs in economic empowerment, housing, education, civic engagement, and health and wellness.\n\nGPUL describes itself as an agent of change serving individuals and families across the Valley of the Sun. Its work focuses on providing resources, opportunities, advocacy, and direct services that help community members build more stable and successful futures. The organization has touched thousands of lives in Phoenix and surrounding areas through programs that address barriers to opportunity.\n\nEconomic empowerment is one of GPUL's major areas of work. The organization supports job seekers through workforce development, job and skills training, job placement, re-entry employment services, apprenticeships, internships, and employer partnerships. GPUL also supports entrepreneurs and small business owners through its Entrepreneurship Center, offering bootcamps, workshops, business planning support, access-to-capital connections, and opportunities for local businesses to reach the community.\n\nThe organization's housing work supports access to safe, decent, affordable, and energy-efficient housing on fair terms. GPUL provides housing-related services and homebuyer education support, helping individuals and families understand the homeownership process and connect with counseling and resources.\n\nGPUL's education, civic engagement, and health and wellness work reflects its broader commitment to equity and community stability. The organization frames its goals around children being ready for kindergarten, college, work, and life; people having access to equity and justice; and community members having access to quality and affordable healthcare.\n\nThrough advocacy, bridge-building, program services, research, and partnerships, the Greater Phoenix Urban League works to strengthen underserved communities and advance opportunity across the Phoenix region.",
     "missionVision": "The mission of the Greater Phoenix Urban League is to be an agent of change and to support minorities and those in need in achieving economic and social equality through programs in economic empowerment, housing, education, civic engagement, and health and wellness.\n\nIts vision is reflected in five foundation areas: every person has access to jobs with a living wage and good benefits; every person lives in safe, decent, affordable, and energy-efficient housing on fair terms; every child is ready for kindergarten, college, work, and life; every person has a right to equity and justice; and every person has access to quality and affordable healthcare.\n\nThe organization aligns its work with the broader Urban League movement to advance civil rights, economic empowerment, education, housing, workforce development, entrepreneurship, health, quality of life, and social equality for African Americans and other underserved communities.",
-    "leadership": [
-      {
-        "name": "George Dean",
-        "title": "President and Chief Executive Officer",
-        "photo": "/partner-images/greater-phoenix-urban-league/George_Dean.jpg"
-      }
-    ],
-    "primaryPhoto": "/partner-images/greater-phoenix-urban-league/George_Dean.jpg",
+    "leadership": [],
+    "primaryPhoto": "",
     "sources": [],
     "profilePath": "Greater Phoenix Urban League/Greater Phoenix Urban League.md",
     "asuAlum": "",
     "asuAlumDetails": "",
     "linkedin": "",
+    "collaboratory": "",
     "councilNotes": ""
   },
   {
@@ -459,6 +469,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/ivan-gilreath-58b1176/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/42a02ebb-3dba-4f7a-6967-4012c482436a",
     "councilNotes": ""
   },
   {
@@ -484,6 +495,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.bizjournals.com/phoenix/potmsearch/detail/submission/6568274/Lt_Colonel_Henry_Graciani",
+    "collaboratory": "",
     "councilNotes": ""
   },
   {
@@ -509,6 +521,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ef91f17b-9c49-4a08-587c-349dea388656",
     "councilNotes": ""
   },
   {
@@ -534,6 +547,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "BS in Administration of Justice",
     "linkedin": "https://www.zoominfo.com/p/John-Hogeboom/1071218280",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/842c97b5-1247-4bb0-7e21-80975d8c1f0c",
     "councilNotes": ""
   },
   {
@@ -559,6 +573,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/carla-vargas-jasa-58b5b81/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/bbdf857c-8ad9-43c3-4a49-e3e443ce198a",
     "councilNotes": ""
   },
   {
@@ -584,6 +599,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/robyn-julien-13940223/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/c1da1d83-fe06-4cf4-5222-817d3bf4616c",
     "councilNotes": ""
   },
   {
@@ -609,6 +625,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/mary-lynn-kasunic-764",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d962ea2b-5d74-4b59-5eaa-b51395cdeb91",
     "councilNotes": ""
   },
   {
@@ -634,6 +651,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/katherine-cecala-909b225/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d6d69fa3-3f3e-4874-4510-c1e534fd1cde",
     "councilNotes": ""
   },
   {
@@ -659,6 +677,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/jaredkittelson/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/bc1ff403-0a5f-45e7-6ce3-ef1eb4aa9acd",
     "councilNotes": ""
   },
   {
@@ -684,6 +703,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/miltliu/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/f761985d-b930-42a0-40b1-5406ef128363",
     "councilNotes": ""
   },
   {
@@ -709,6 +729,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/mojo714/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/66914d44-5535-4dd4-7d28-18663c10050a",
     "councilNotes": ""
   },
   {
@@ -734,6 +755,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/bryan-madden-01710410a/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/32058bbc-bf64-4da0-76d0-76a6adf80da5",
     "councilNotes": ""
   },
   {
@@ -759,6 +781,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2007, EMBA global business",
     "linkedin": "https://www.linkedin.com/in/fran-mallace-45b2981/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/bb351bc2-9969-4d74-7d56-f41274f59e7b",
     "councilNotes": ""
   },
   {
@@ -784,6 +807,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.bgcaz.org/marcia-mintz/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ef8c03bf-f97e-41ac-5885-a2d5dd67f573",
     "councilNotes": ""
   },
   {
@@ -809,6 +833,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2015, MBA",
     "linkedin": "https://www.linkedin.com/in/paul-s-mulligan-056b22a/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d6ee83ee-4124-49af-4412-3df1d63b392b",
     "councilNotes": ""
   },
   {
@@ -834,6 +859,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/rich-nickel-phoenix-az",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d8a4bf05-5417-4c5c-7d07-ce8f1677f2e1",
     "councilNotes": ""
   },
   {
@@ -859,6 +885,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/daniel-openden-2203834/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/e31ce5a1-71a1-4616-75ab-9e99eee9fcb8",
     "councilNotes": ""
   },
   {
@@ -884,6 +911,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2027, Executive MBA",
     "linkedin": "https://www.linkedin.com/in/andy-price-08856b11/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/f585d263-32d2-4bfa-6015-2532bc90a365",
     "councilNotes": ""
   },
   {
@@ -909,6 +937,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/jasonreedaz/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/80b5ce6b-ef4e-4a39-6fcd-2d8b3725fdad",
     "councilNotes": ""
   },
   {
@@ -934,6 +963,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/mike-renaud-7b556455/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/295e5a02-ae10-45b0-77e6-0542aca2b09e",
     "councilNotes": ""
   },
   {
@@ -959,6 +989,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/christopher-j-rodriguez-29a6baa/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/e9a4203f-469d-4d74-6680-86297b55216a",
     "councilNotes": ""
   },
   {
@@ -984,6 +1015,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "1991, BS finance",
     "linkedin": "https://www.linkedin.com/in/toddarogers/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/1c459b5a-684a-45c0-69ca-4bdb47e456ae",
     "councilNotes": ""
   },
   {
@@ -1009,6 +1041,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "1993, BS communicatio",
     "linkedin": "https://www.linkedin.com/in/aimee-runyon-9a68089/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a7f0292d-304f-423e-6ab5-a7cc485c8861",
     "councilNotes": ""
   },
   {
@@ -1034,6 +1067,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ebf952ca-168f-450b-5816-8de933deb60d",
     "councilNotes": ""
   },
   {
@@ -1059,6 +1093,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "2021, MS social work",
     "linkedin": "https://www.linkedin.com/in/matt-sandoval-94765b5/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ea24c63d-b9b1-4e40-793f-93baf531de8f",
     "councilNotes": ""
   },
   {
@@ -1084,6 +1119,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/michael-v-simoni/",
+    "collaboratory": "",
     "councilNotes": ""
   },
   {
@@ -1109,6 +1145,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/josephspecter/",
+    "collaboratory": "",
     "councilNotes": ""
   },
   {
@@ -1134,6 +1171,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/terrispitz/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/20752c76-05fa-4faa-6e8e-aa6b557930c7",
     "councilNotes": ""
   },
   {
@@ -1159,6 +1197,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/john-swagert-md/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a0f285a8-b78d-4e64-646e-6a3f5ee53041",
     "councilNotes": ""
   },
   {
@@ -1184,6 +1223,7 @@ export const partners: Partner[] = [
     "asuAlum": "Yes",
     "asuAlumDetails": "1991, BS psychology",
     "linkedin": "https://www.linkedin.com/in/torrie-taj/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d2e2581e-31a4-406d-6531-7067c6f9c3ff",
     "councilNotes": ""
   },
   {
@@ -1209,6 +1249,7 @@ export const partners: Partner[] = [
     "asuAlum": "No",
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/karenhtepper/",
+    "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/77c73526-c972-4be5-42de-296f8905e4ba",
     "councilNotes": ""
   }
 ]

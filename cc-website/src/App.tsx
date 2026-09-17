@@ -155,9 +155,10 @@ function App() {
 
         <section className="directory" aria-label="Partner directory">
           {filteredPartners.map((partner) => {
-            const leader =
-              partner.leadership.find((person) => person.name === partner.leader) ??
-              partner.leadership[0] ?? { name: partner.leader, title: partner.position, photo: '' }
+            const leader = partner.leader
+              ? partner.leadership.find((person) => person.name === partner.leader) ??
+                partner.leadership[0] ?? { name: partner.leader, title: partner.position, photo: '' }
+              : null
 
             return (
               <article
@@ -166,17 +167,21 @@ function App() {
                 onClick={() => openPartner(partner, 'organization')}
               >
                 <div className="card-top">
-                  <button
-                    className="photo-button"
-                    aria-label={`View ${leader.name}'s full picture`}
-                    onClick={(event) => {
-                      event.stopPropagation()
-                      openPartner(partner, 'leader')
-                    }}
-                    type="button"
-                  >
-                    <LeaderPhoto leader={leader} />
-                  </button>
+                  {leader ? (
+                    <button
+                      className="photo-button"
+                      aria-label={`View ${leader.name}'s full picture`}
+                      onClick={(event) => {
+                        event.stopPropagation()
+                        openPartner(partner, 'leader')
+                      }}
+                      type="button"
+                    >
+                      <LeaderPhoto leader={leader} />
+                    </button>
+                  ) : (
+                    <div className="avatar blank" aria-hidden="true" />
+                  )}
                   <div className="badge-stack">
                     <span className={partner.funded ? 'badge funded' : 'badge'}>
                       {partner.funded ? 'FY25 VSUW funded' : 'Not FY25 VSUW funded'}
@@ -189,17 +194,21 @@ function App() {
                 <button className="org-button" type="button">
                   {partner.organization}
                 </button>
-                <button
-                  className="leader-button"
-                  onClick={(event) => {
-                    event.stopPropagation()
-                    openPartner(partner, 'leader')
-                  }}
-                  type="button"
-                >
-                  {partner.leader}
-                </button>
-                <p>{partner.position}</p>
+                {leader ? (
+                  <>
+                    <button
+                      className="leader-button"
+                      onClick={(event) => {
+                        event.stopPropagation()
+                        openPartner(partner, 'leader')
+                      }}
+                      type="button"
+                    >
+                      {partner.leader}
+                    </button>
+                    <p>{partner.position}</p>
+                  </>
+                ) : null}
               </article>
             )
           })}
@@ -236,8 +245,8 @@ function App() {
                 {alumLabel(selected)}
               </span>
               <h2>{selected.organization}</h2>
-              <p>{selected.leader}</p>
-              <p>{selected.position}</p>
+              {selected.leader ? <p>{selected.leader}</p> : null}
+              {selected.position ? <p>{selected.position}</p> : null}
               <div className="modal-actions">
                 <a href={selected.website} target="_blank" rel="noreferrer">
                   Website
@@ -247,14 +256,18 @@ function App() {
                     LinkedIn
                   </a>
                 ) : null}
-                <button type="button">Collaboratory</button>
+                {selected.collaboratory ? (
+                  <a href={selected.collaboratory} target="_blank" rel="noreferrer">
+                    Collaboratory
+                  </a>
+                ) : null}
                 <button type="button">Google Drive</button>
               </div>
             </div>
 
             <div className="modal-main">
               <div className="modal-header">
-                <div className="detail-tabs">
+                <div className={selected.leader ? 'detail-tabs' : 'detail-tabs single'}>
                   <button
                     className={detailMode === 'organization' ? 'active' : ''}
                     onClick={() => setDetailMode('organization')}
@@ -262,13 +275,15 @@ function App() {
                   >
                     Organization
                   </button>
-                  <button
-                    className={detailMode === 'leader' ? 'active' : ''}
-                    onClick={() => setDetailMode('leader')}
-                    type="button"
-                  >
-                    Leader
-                  </button>
+                  {selected.leader ? (
+                    <button
+                      className={detailMode === 'leader' ? 'active' : ''}
+                      onClick={() => setDetailMode('leader')}
+                      type="button"
+                    >
+                      Leader
+                    </button>
+                  ) : null}
                 </div>
                 <button className="close-button" onClick={() => setSelected(null)} type="button">
                   Close
@@ -290,20 +305,22 @@ function App() {
                       <p key={paragraph}>{paragraph}</p>
                     ))}
                   </section>
-                  <section>
-                    <h3>Leadership</h3>
-                    <div className="leadership-grid">
-                      {selected.leadership.map((leader) => (
-                        <article className="leader-tile" key={`${leader.name}-${leader.title}`}>
-                          <LeaderPhoto leader={leader} />
-                          <div>
-                            <strong>{leader.name}</strong>
-                            <span>{leader.title}</span>
-                          </div>
-                        </article>
-                      ))}
-                    </div>
-                  </section>
+                  {selected.leadership.length ? (
+                    <section>
+                      <h3>Leadership</h3>
+                      <div className="leadership-grid">
+                        {selected.leadership.map((leader) => (
+                          <article className="leader-tile" key={`${leader.name}-${leader.title}`}>
+                            <LeaderPhoto leader={leader} />
+                            <div>
+                              <strong>{leader.name}</strong>
+                              <span>{leader.title}</span>
+                            </div>
+                          </article>
+                        ))}
+                      </div>
+                    </section>
+                  ) : null}
                 </div>
                 ) : (
                 <div className="profile-content">
