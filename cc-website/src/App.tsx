@@ -261,7 +261,11 @@ function App() {
                     Collaboratory
                   </a>
                 ) : null}
-                <button type="button">Google Drive</button>
+                {selected.googleDrive ? (
+                  <a href={selected.googleDrive} target="_blank" rel="noreferrer">
+                    Google Drive
+                  </a>
+                ) : null}
               </div>
             </div>
 

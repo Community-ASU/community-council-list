@@ -202,6 +202,15 @@ const records = partners.map((partner) => {
         'Collaboratory url',
       ]),
     ),
+    googleDrive: normalizeWebsite(
+      getFirstField(collaboratoryRow, [
+        'Drive Link',
+        'Drive link',
+        'Google Drive',
+        'Google Drive Link',
+        'Google drive link',
+      ]),
+    ),
     councilNotes: councilRow?.['Edits/Comments'] ?? '',
   }
 })
@@ -230,6 +239,7 @@ export type Partner = {
   asuAlumDetails: string
   linkedin: string
   collaboratory: string
+  googleDrive: string
   councilNotes: string
 }
 

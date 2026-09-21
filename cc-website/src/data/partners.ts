@@ -22,6 +22,7 @@ export type Partner = {
   asuAlumDetails: string
   linkedin: string
   collaboratory: string
+  googleDrive: string
   councilNotes: string
 }
 
@@ -86,6 +87,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/tammy-abernethy-6328b120/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d2bb70ca-f869-4d82-457f-5164827e3c41",
+    "googleDrive": "https://drive.google.com/drive/folders/1C7wX-YS_vfr8feBgxnuRhWNDKS81srop?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -112,6 +114,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/ron-adelson-7a68951b1/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/c8e8df7c-6c1b-4a21-65fa-17027e598a86",
+    "googleDrive": "https://drive.google.com/drive/folders/1EhHmQibgkvNc2uGmgcduoolfgRTwVBTP?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -138,6 +141,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/sophieallenetchart/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/245eccc8-cd11-4c2c-6013-a104568a0970",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -164,6 +168,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/lauren-forrester-arndt-b0b57966/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ce859292-e6b7-47ab-5ae7-ddf629ff867a",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -190,6 +195,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2006, Mass communication",
     "linkedin": "https://www.linkedin.com/in/becky-bell-ballard-37bb064/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/2645761a-1054-4dfd-6609-55341435a402",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -216,6 +222,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/jeffrey-bernick-956005173/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/057b6503-2730-4b8b-41b9-62c69fc24198",
+    "googleDrive": "https://drive.google.com/drive/folders/1XajLEtcI7C8m8_g7ELYiaWc1oepexXf_?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -242,6 +249,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "",
     "collaboratory": "",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -268,6 +276,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2012, MS legal studies; 1983 MHSA",
     "linkedin": "https://www.linkedin.com/in/blaine-bandi-b2258515/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a6ba20e3-6a5f-492e-4fdd-e947440b8d45",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -294,6 +303,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/kenbrissa",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/45c929df-3086-4a2e-7a25-5b382370400d",
+    "googleDrive": "https://drive.google.com/drive/folders/1YcdCZZgjp2cwrHj9_7PxeZVRCfqbc9gb?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -320,6 +330,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/kerwinvbrown/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a79813ff-592d-46c1-4224-b50a6ebfd182",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -346,6 +357,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/dave-brown-9954511/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/593ab337-0f24-4838-5813-a4544c9c20f6",
+    "googleDrive": "https://drive.google.com/drive/folders/1nE3UkhmSb6ZckJzST67pc5ZbxeSL2ctV?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -372,6 +384,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2000, BS non profit management",
     "linkedin": "https://www.linkedin.com/in/debbie-castillo-smith-12ab5136/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/b94fb739-53b3-4221-46ad-3e9d1e591bd9",
+    "googleDrive": "https://drive.google.com/drive/folders/1gqV2BDcRE5xiD0yNCBeDRkcbVv7lXaB5?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -398,6 +411,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/shannon-clancy-05310a6a",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/fdd8ffc3-24a7-4e04-4476-b213c5f470f9",
+    "googleDrive": "https://drive.google.com/drive/folders/14MDFknDLzMmrgTcNIhZJqcY4zAcPkMuZ?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -424,6 +438,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://azcaar.org/roy-dawson/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/b91ceec7-aca8-43d2-7e29-4b4378ac2c79",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -444,6 +459,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "",
     "collaboratory": "",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -470,6 +486,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/ivan-gilreath-58b1176/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/42a02ebb-3dba-4f7a-6967-4012c482436a",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -496,6 +513,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.bizjournals.com/phoenix/potmsearch/detail/submission/6568274/Lt_Colonel_Henry_Graciani",
     "collaboratory": "",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -522,6 +540,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ef91f17b-9c49-4a08-587c-349dea388656",
+    "googleDrive": "https://drive.google.com/drive/folders/137GTqP3R_tfYCODhnklOsriwyMe7hH43?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -548,6 +567,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "BS in Administration of Justice",
     "linkedin": "https://www.zoominfo.com/p/John-Hogeboom/1071218280",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/842c97b5-1247-4bb0-7e21-80975d8c1f0c",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -574,6 +594,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/carla-vargas-jasa-58b5b81/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/bbdf857c-8ad9-43c3-4a49-e3e443ce198a",
+    "googleDrive": "https://drive.google.com/drive/folders/1CDBF9nJXJIM_U08odnpKOfsEOgm6YUec?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -600,6 +621,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/robyn-julien-13940223/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/c1da1d83-fe06-4cf4-5222-817d3bf4616c",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -626,6 +648,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/mary-lynn-kasunic-764",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d962ea2b-5d74-4b59-5eaa-b51395cdeb91",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -652,6 +675,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/katherine-cecala-909b225/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d6d69fa3-3f3e-4874-4510-c1e534fd1cde",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -678,6 +702,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/jaredkittelson/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/bc1ff403-0a5f-45e7-6ce3-ef1eb4aa9acd",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -704,6 +729,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/miltliu/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/f761985d-b930-42a0-40b1-5406ef128363",
+    "googleDrive": "https://drive.google.com/drive/folders/1BYVrYCT1Nn4HIIEYrkbrq-0FZ5Bj_Mud?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -730,6 +756,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/mojo714/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/66914d44-5535-4dd4-7d28-18663c10050a",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -756,6 +783,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/bryan-madden-01710410a/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/32058bbc-bf64-4da0-76d0-76a6adf80da5",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -782,6 +810,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2007, EMBA global business",
     "linkedin": "https://www.linkedin.com/in/fran-mallace-45b2981/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/bb351bc2-9969-4d74-7d56-f41274f59e7b",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -808,6 +837,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.bgcaz.org/marcia-mintz/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ef8c03bf-f97e-41ac-5885-a2d5dd67f573",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -834,6 +864,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2015, MBA",
     "linkedin": "https://www.linkedin.com/in/paul-s-mulligan-056b22a/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d6ee83ee-4124-49af-4412-3df1d63b392b",
+    "googleDrive": "https://drive.google.com/drive/folders/1kHYpDOFCcnJkntQTP2_1I6XhBlWYM6Xn?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -860,6 +891,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/rich-nickel-phoenix-az",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d8a4bf05-5417-4c5c-7d07-ce8f1677f2e1",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -886,6 +918,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/daniel-openden-2203834/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/e31ce5a1-71a1-4616-75ab-9e99eee9fcb8",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -912,6 +945,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2027, Executive MBA",
     "linkedin": "https://www.linkedin.com/in/andy-price-08856b11/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/f585d263-32d2-4bfa-6015-2532bc90a365",
+    "googleDrive": "https://drive.google.com/drive/folders/1VtcS84I1ABcSvZzmE1fpaSdRnEALqnew?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -938,6 +972,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/jasonreedaz/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/80b5ce6b-ef4e-4a39-6fcd-2d8b3725fdad",
+    "googleDrive": "https://drive.google.com/drive/folders/1JVL-YiyS68pojuGeYbMrNhpsLsyzC_8Q?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -964,6 +999,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/mike-renaud-7b556455/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/295e5a02-ae10-45b0-77e6-0542aca2b09e",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -990,6 +1026,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/christopher-j-rodriguez-29a6baa/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/e9a4203f-469d-4d74-6680-86297b55216a",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1016,6 +1053,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "1991, BS finance",
     "linkedin": "https://www.linkedin.com/in/toddarogers/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/1c459b5a-684a-45c0-69ca-4bdb47e456ae",
+    "googleDrive": "https://drive.google.com/drive/folders/1IrdKoKTBtR-iqTba7EPASKtdcDjT8-ER?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -1042,6 +1080,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "1993, BS communicatio",
     "linkedin": "https://www.linkedin.com/in/aimee-runyon-9a68089/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a7f0292d-304f-423e-6ab5-a7cc485c8861",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1068,6 +1107,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ebf952ca-168f-450b-5816-8de933deb60d",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1094,6 +1134,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "2021, MS social work",
     "linkedin": "https://www.linkedin.com/in/matt-sandoval-94765b5/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/ea24c63d-b9b1-4e40-793f-93baf531de8f",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1120,6 +1161,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/michael-v-simoni/",
     "collaboratory": "",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1146,6 +1188,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/josephspecter/",
     "collaboratory": "",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1172,6 +1215,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/terrispitz/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/20752c76-05fa-4faa-6e8e-aa6b557930c7",
+    "googleDrive": "https://drive.google.com/drive/folders/1ekh5beqh6JOEqwG1-wtt7a9jnZyq9Y42?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -1198,6 +1242,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/john-swagert-md/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/a0f285a8-b78d-4e64-646e-6a3f5ee53041",
+    "googleDrive": "",
     "councilNotes": ""
   },
   {
@@ -1224,6 +1269,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "1991, BS psychology",
     "linkedin": "https://www.linkedin.com/in/torrie-taj/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/d2e2581e-31a4-406d-6531-7067c6f9c3ff",
+    "googleDrive": "https://drive.google.com/drive/folders/1SENnXbxPCngjpoII60_p-WCLEonRSA05?usp=drive_link",
     "councilNotes": ""
   },
   {
@@ -1250,6 +1296,7 @@ export const partners: Partner[] = [
     "asuAlumDetails": "",
     "linkedin": "https://www.linkedin.com/in/karenhtepper/",
     "collaboratory": "https://he.cecollaboratory.com/collaboratory/W2XKZ2HI2/organizations/77c73526-c972-4be5-42de-296f8905e4ba",
+    "googleDrive": "https://drive.google.com/drive/folders/1Zbwu5nxeda2dGEpdMnl7W6KlvHpgvXeK?usp=drive_link",
     "councilNotes": ""
   }
 ]
